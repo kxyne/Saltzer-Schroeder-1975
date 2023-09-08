@@ -1,4 +1,5 @@
 # Saltzer-Schroeder-1975
+
 Nice(r) markdown of the BASIC PRINCIPLES OF INFORMATION PROTECTION from the seminal 1975 paper - https://web.mit.edu/Saltzer/www/publications/protection/index.html
 (See https://web.mit.edu/Saltzer/www/publications/protection/Basic.html for this content, Section 3)
 
@@ -9,7 +10,6 @@ Fourth ACM Symposium on Operating System Principles (October 1973).
 Revised version in Communications of the ACM 17, 7 (July 1974).
 
 Original web version created by Norman Hardy.
-
  
 # Design Principles
 Whatever the level of functionality provided, the usefulness of a set of protection mechanisms depends upon the ability of a system to prevent security violations. In practice, producing a system at any level of functionality (except level one) that actually does prevent all such unauthorized acts has proved to be extremely difficult. Sophisticated users of most systems are aware of at least one way to crash the system, denying other users authorized access to stored information. Penetration exercises involving a large number of different general-purpose systems all have shown that users can construct programs that can obtain unauthorized access to information stored within. Even in systems designed and implemented with security as an important objective, design and implementation flaws provide paths that circumvent the intended access constraints. Design and construction techniques that systematically exclude flaws are the topic of much research activity, but no complete method applicable to the construction of large general-purpose systems exists yet. This difficulty is related to the negative quality of the requirement to prevent all unauthorized actions.
